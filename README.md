@@ -71,17 +71,7 @@
     # Ответ: 
   
 ```
-root@vagrant:~# opensnoop-bpfcc
-PID    COMM               FD ERR PATH
-634    irqbalance          6   0 /proc/interrupts
-634    irqbalance          6   0 /proc/stat
-634    irqbalance          6   0 /proc/irq/20/smp_affinity
-634    irqbalance          6   0 /proc/irq/19/smp_affinity
-634    irqbalance          6   0 /proc/irq/19/smp_affinity
-634    irqbalance          6   0 /proc/irq/0/smp_affinity
-634    irqbalance          6   0 /proc/irq/1/smp_affinity
-634    irqbalance          6   0 /proc/irq/8/smp_affinity
-634    irqbalance          6   0 /proc/irq/12/smp_affinity
+![image](https://user-images.githubusercontent.com/123774335/221432008-e3133daa-46da-4901-92e9-199337fa417d.png)
    ```
   
 
