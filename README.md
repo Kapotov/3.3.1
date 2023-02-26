@@ -62,8 +62,8 @@
     
     На какие файлы вы увидели вызовы группы `open` за первую секунду работы утилиты? Воспользуйтесь пакетом `bpfcc-tools` для Ubuntu 20.04. Дополнительные сведения по установке [по ссылке](https://github.com/iovisor/bcc/blob/master/INSTALL.md).
     # Ответ: 
-          ```
-root@vagrant:~# opensnoop-bpfcc
+  
+```root@vagrant:~# opensnoop-bpfcc
 PID    COMM               FD ERR PATH
 634    irqbalance          6   0 /proc/interrupts
 634    irqbalance          6   0 /proc/stat
@@ -74,7 +74,7 @@ PID    COMM               FD ERR PATH
 634    irqbalance          6   0 /proc/irq/1/smp_affinity
 634    irqbalance          6   0 /proc/irq/8/smp_affinity
 634    irqbalance          6   0 /proc/irq/12/smp_affinity
-```
+   ```
   
 
 1. Какой системный вызов использует `uname -a`? Приведите цитату из man по этому системному вызову, где описывается альтернативное местоположение в `/proc` и где можно узнать версию ядра и релиз ОС.
