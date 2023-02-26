@@ -14,6 +14,8 @@
 
 2. Убедитесь, что у вас установлен пакет `bpfcc-tools`, информация по установке [по ссылке](https://github.com/iovisor/bcc/blob/master/INSTALL.md).
 
+![2023-02-26_21-42-22](https://user-images.githubusercontent.com/123774335/221430167-d0a6f81e-d430-4300-a930-982c67c9f34c.png)
+
 ### Дополнительные материалы для выполнения задания
 
 1. Изучите документацию lsof — `man lsof`. Та же информация есть [в сети](https://linux.die.net/man/8/lsof).
