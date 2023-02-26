@@ -71,9 +71,20 @@
     # Ответ: 
   
 ```
-![image](https://user-images.githubusercontent.com/123774335/221432008-e3133daa-46da-4901-92e9-199337fa417d.png)
+vagrant@vagrant:~$ sudo opensnoop-bpfcc
+PID    COMM               FD ERR PATH
+672    irqbalance          6   0 /proc/interrupts
+672    irqbalance          6   0 /proc/stat
+672    irqbalance          6   0 /proc/irq/20/smp_affinity
+672    irqbalance          6   0 /proc/irq/0/smp_affinity
+672    irqbalance          6   0 /proc/irq/1/smp_affinity
+672    irqbalance          6   0 /proc/irq/8/smp_affinity
+672    irqbalance          6   0 /proc/irq/12/smp_affinity
+672    irqbalance          6   0 /proc/irq/14/smp_affinity
+672    irqbalance          6   0 /proc/irq/15/smp_affinity
    ```
-  
+  ![2023-02-26_22-20-00](https://user-images.githubusercontent.com/123774335/221432096-1660ac2a-28a4-43d8-aaa1-13a567c0c3ef.png)
+
 
 6. Какой системный вызов использует `uname -a`? Приведите цитату из man по этому системному вызову, где описывается альтернативное местоположение в `/proc` и где можно узнать версию ядра и релиз ОС.
  # Ответ:  
